@@ -19,13 +19,11 @@
             * New transfer screen should be closed
             * Toast message should appear with Cancel button
             * Transfer transactions are displayed in Balance history section
-        * New transfer screen should
-        * New transfer screen should
     * Vertical elipsis button should open Right-side menu
         * Right-side menu should display Categories, Accounts and Currencies menu items.
         * Tap on each menu item opens sub-menu
             * Categories sub-menu should allow user to add custom Category (Pro-Feature)
-            * Tap on a category from the list opens Edit category screen
+            * Tap on item from the categories list opens Edit category screen
                 * Edit category screen should allow user to delete category
                 * It should be possible to Merge categories
                 * It should be possible to distinguish between Enabled and disabled categories
@@ -34,9 +32,21 @@
                 * Changes should be saved automatically
                 * It should be possible to close Edit category screen via back arrow button
                 * Toast message should appear. Message should confirm that the changes in category were saved. It should be possible to delete new category via Cancel button in toast.
-            * Accounts sub-menu should  allow user to create new Accounts
-                * New account screen [...]
-
+            * Accounts sub-menu should  allow user to create new Account
+                * New account screen should allow user to give account name
+                * New account screen should allow user to select currency (Pro-Feature)
+                * New account screen should allow user to setup custom currency rate (Pro-Feature)
+                * New account screen should allow user to setup Initial account balance and Initial balance date
+                * New account screen should allow user to define whether new account balance should be Included in the total balance
+                * New account screen should allow user to select Account icon
+                * Add button in the header of New account screen should create an account. Toast message appears. Message should confirm that the changes in account were saved. It should be possible to delete new account via Cancel button in toast.
+            * Accounts sub-menu should allow editing accounts
+                * Edit account screen repeats New account window
+                * Edit account screen should allow user to delete account
+                * Edit account screen should allow user to merge accounts
+                * Edit account screen should allow user to enable/disable account
+            * Accounts sub-menu should allow creating transfer transaction
+            * Currencies (Pro-Feature) [...]
 * Check if the "circle diagram" is built correctly /Low/
 * App Home screen should display Category actions. /High/
 * Category actions buttons should open "New expense" screen /High/
@@ -80,6 +90,6 @@
             * It should be possible to add custom income category. (Pro-Feature)
             * Once the income category is selected positive transaction is created. New income screen is closed. Toast message is displayed. It is possible to delete new transaction via Cancel button on toast.
         * Balance button is updated after income transaction was created. Transaction is displayed in Balance history section.
-
-
-
+* Pro-Feature screen should appear every time a button with Pro-Feature is tapped.
+    * Pro-Feature screen should display big CTA button to initiate purchase of unlimited use
+    * Pro-Feature screen should display a list of features available after purchase of unlimited use
