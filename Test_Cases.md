@@ -1,4 +1,6 @@
 
+A list of ideas/bullet points I would test for. A list of test cases is representing the app structure. Every statement is a test. 
+
 * App Home screen should display header. /High/
     * Menu button should open left side-menu
         * Left side menu should allow selection of a money space for displaying
